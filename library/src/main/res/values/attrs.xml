@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="dotColor" format="color"></attr>
+    <attr name="dotRadius" format="dimension"></attr>
+    <attr name="dotNum" format="integer"></attr>
+    <attr name="period" format="integer"></attr>
+
+    <declare-styleable name="AccelerateTranslationView">
+        <attr name="dotColor" />
+        <attr name="dotRadius" />
+        <attr name="dotNum" />
+        <attr name="period" />
+    </declare-styleable>
+
+
+    <attr name="ringColor" format="color"></attr>
+    <attr name="ringWidth" format="dimension"></attr>
+    <attr name="globuleColor" format="color"></attr>
+    <attr name="globuleRadius" format="dimension"></attr>
+    <attr name="cycleTime" format="float"></attr>
+
+    <declare-styleable name="AccelerateCircularView">
+        <attr name="ringColor" />
+        <attr name="ringWidth" />
+        <attr name="globuleColor" />
+        <attr name="globuleRadius" />
+        <attr name="cycleTime" />
+    </declare-styleable>
+</resources>

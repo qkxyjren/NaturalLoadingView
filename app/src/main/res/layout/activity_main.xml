@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nlv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.jaren.naturalloadingview.MainActivity">
+
+    <com.jaren.naturalloadingviewlib.AccelerateCircularView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        nlv:cycleTime="2400"
+        nlv:globuleColor="#FF6100"
+        nlv:globuleRadius="4dp"
+        nlv:ringColor="#40E0D0"
+        nlv:ringWidth="1dp">
+
+    </com.jaren.naturalloadingviewlib.AccelerateCircularView>
+
+    <com.jaren.naturalloadingviewlib.AccelerateCircularView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        nlv:cycleTime="600"
+        nlv:globuleColor="#FFD700"
+        nlv:globuleRadius="4dp"
+        nlv:ringColor="#734A12"
+        nlv:ringWidth="8dp">
+
+    </com.jaren.naturalloadingviewlib.AccelerateCircularView>
+
+    <com.jaren.naturalloadingviewlib.AccelerateTranslationView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:background="#000000"
+        nlv:dotColor="#0000ff"
+        nlv:dotNum="6">
+
+    </com.jaren.naturalloadingviewlib.AccelerateTranslationView>
+
+    <com.jaren.naturalloadingviewlib.AccelerateTranslationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        nlv:dotColor="#ff0000"
+        nlv:dotNum="5"
+        nlv:dotRadius="4dp"
+        nlv:period="3600">
+
+    </com.jaren.naturalloadingviewlib.AccelerateTranslationView>
+</RelativeLayout>
