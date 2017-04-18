@@ -77,7 +77,7 @@ public class AccelerateTranslationView extends View {
                         .applyDimension(TypedValue.COMPLEX_UNIT_DIP, 3,
                                 getResources().getDisplayMetrics()));
         mPeriod = a.getInteger(
-                R.styleable.AccelerateTranslationView_period, 3000);
+                R.styleable.AccelerateTranslationView_period, 2400);
         a.recycle();
         mPaint = new Paint();
         mPaint.setColor(mDotColor);

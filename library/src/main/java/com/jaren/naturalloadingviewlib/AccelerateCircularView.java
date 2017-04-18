@@ -16,7 +16,7 @@ import android.view.View;
 /**
  * 模拟竖直平面内小球以一定初速度在重力作用下绕圆环做变速圆周运动 （从最低点减速到0上升到最高点再加速到初始值回到最低点）。
  *
- * @author jren
+ * @author jaren
  *
  */
 public class AccelerateCircularView extends View {

@@ -49,7 +49,6 @@
         nlv:dotColor="#ff0000"
         nlv:dotNum="5"
         nlv:dotRadius="4dp"
-        nlv:period="3600">
-
+        nlv:period="3000">
     </com.jaren.naturalloadingviewlib.AccelerateTranslationView>
 </RelativeLayout>
