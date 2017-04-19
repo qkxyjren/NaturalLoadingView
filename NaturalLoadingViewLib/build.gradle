@@ -37,8 +37,8 @@ ext {
     bintrayName = 'naturalloadingview'
 
     publishedGroupId = 'com.jaren.naturalloadingview'
-    libraryName = 'library'
-    artifact = 'library'
+    libraryName = 'NaturalLoadingViewLib'
+    artifact = 'NaturalLoadingViewLib'
 
     libraryDescription = 'Natural-looking animation '
 
