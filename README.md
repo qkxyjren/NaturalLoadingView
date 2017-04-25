@@ -8,7 +8,8 @@ Natural-looking LoadingView for Android
 
 How to use
 ----------
-**1.to include SearchBar to your project:**
+
+**1.to include naturalloadingview to your project:**
 
 add the dependency to the the app level build.gradle file
 
