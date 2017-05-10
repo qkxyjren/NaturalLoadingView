@@ -47,7 +47,7 @@ You can customize the look and behavior of the `naturalloadingview` in xml. Use 
 - `globuleRadius`
 - `cycleTime`
 
- **2.AccelerateCircularView**
+ **2.AccelerateTranslationView**
 
 - `dotColor`
 - `dotRadius`
